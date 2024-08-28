@@ -2,6 +2,7 @@
 # An earlier version was first described at https://jdhitsolutions.com/blog/powershell/8087/an-active-directory-change-report-from-powershell/
 
 #Reporting on deleted items requires the Active Directory Recycle Bin feature
+# a micky mouse change
 Function New-ADChangeReport {
     [cmdletbinding()]
     [outputtype("System.IO.FileInfo")]
